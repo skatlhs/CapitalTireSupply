@@ -1,0 +1,38 @@
+    Add this CSS to your stylesheet
+    .form-title {
+        margin-bottom: 10px;
+        /* Adjust this value as needed */
+        }
+        .search-wrap-1 {
+        padding: 60px 40px;
+        border-radius: 20px;
+        background-color: white;
+        }
+        a.nav-link {
+        font-weight: bold !important;
+        border-top: 2px solid transparent;
+        }
+        .nav-link a:hover, a.nav-link:hover{
+            border-color: #f7b71d;
+        }
+        .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        }
+        .image-box {
+        text-align: center;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+        /* Add border-color transition */
+        }
+        .image-box img {
+        max-width: 100%;
+        max-height: 100px;
+        }
+        .image-box:hover {
+        border-color: #f7b71d;
+        }
